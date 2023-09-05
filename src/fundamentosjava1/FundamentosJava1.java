@@ -15,7 +15,13 @@ public class FundamentosJava1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Crear 3 variable, una para la edad, otra para el nombre, y una última para su salario
+        int edad = 38;
+        String nombre = "Nico";
+        double salario = 200;
+        
+        //Mostrar por pantalla Soy <nombre> tengo <edad> y mi sueldo es de <salario>
+        System.out.println("Soy "+nombre+", tengo "+edad+" años y mi sueldo es de "+salario+" $");
     }
     
 }
